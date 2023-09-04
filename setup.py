@@ -66,7 +66,7 @@ def read_install_requires():
     reqs = [
             'pandas>=0.18.0',
             'requests>=2.0.0',
-            'lxml>=3.8.0',
+            'lxml>=4.9.3',
             'simplejson>=3.16.0',
             'msgpack>=0.5.6',
             'pyzmq>=16.0.0'

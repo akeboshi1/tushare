@@ -11,8 +11,10 @@ import numpy as np
 from tushare.stock import cons as ct
 from tushare.util import dateu as du
 from tushare.util.netbase import Client
-from pandas.compat import StringIO
-
+try:
+   from pandas.compat import StringIO
+except ImportError:
+   from io import StringIO
 def shibor_data(year=None):
     """
     获取上海银行间同业拆放利率（Shibor）

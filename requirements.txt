@@ -1,6 +1,8 @@
 pandas>=0.18.0
 requests>=2.0.0
-lxml>=3.8.0
+# 需要手动安装，因为4.5.1版本可能不支持mac m2版本
+# lxml>=4.9.3
 simplejson>=3.16.0
 bs4>=0.0.1
-beautfulsoup4>=4.5.1
+# 需要手动安装，因为4.5.1版本可能不支持mac m2版本
+# beautifulsoup4>=4.12.2

@@ -9,7 +9,10 @@ Created on 2015年6月10日
 """
 
 import pandas as pd
-from pandas.compat import StringIO
+try:
+   from pandas.compat import StringIO
+except ImportError:
+   from io import StringIO
 from tushare.stock import cons as ct
 import numpy as np
 import time
